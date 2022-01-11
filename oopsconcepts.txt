@@ -1,0 +1,72 @@
+OOPS CONCEPTS:
+--------------------
+-Class
+-Object
+-Polymorphism
+-Data Abstraction
+-Inheritance
+
+CLASS:
+---------------------
+It is a blueprint of object
+
+OBJECT:
+------------------------
+It is a instance of class
+
+For Example, When we take a class of cars having different brands like objects 
+and properties like colour, speed, engine, manufacturer and 
+also performs functions like start, stop, move and etc.
+
+POLYMORPHISM:
+-----------------------
+Ability to exhibhit the operations in more than one form with different behaviours
+
+For Example, As a software engineer on could perform multiple tasks based
+ on the requirement either it can be coding, testing, designing and analysing.
+
+ABSTRACTION:
+----------------------------
+It is basically of showing essential features and hiding non-essential features to the user.
+
+For Example, When we login through yahoo mail it shows options to compose, inbox, outbox, 
+sentmails and etc but when the user perform the operations the internal operations will not be known.
+
+ENCAPSULATION:
+--------------------------
+Binding the data and code into  a single unit.
+
+For example, A car is having multiple parts..
+like steering,wheels,engine...etc..which binds together to form a single object that is car. 
+
+INHERITANCE:
+-----------------------------
+Deriving a new class from the existing class,is called Inheritance.
+class Address
+{
+String name;
+Srting H.no;
+String Street name;
+}
+class LatestAddress extends Address
+{
+String City;
+String State;
+String Country;
+}
+public class house
+{
+{
+LatestAddress la = new LatestAddress();
+//Assign variable accordingly...
+}
+}
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+1. Object             - Instance of Class
+2. Class               - Blue print of Object
+3. Encapsulation    - Protecting our Data
+4. Polymorphism   - Different behaviors at different instances
+5. Abstraction        - Hiding our irrelevant Data
+6. Inheritence        - One property of object is acquiring to another property of object
+
